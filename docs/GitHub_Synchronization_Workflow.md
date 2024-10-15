@@ -16,6 +16,10 @@ This document provides a step-by-step workflow for:
      !git add .
      ```
    - This command stages all new and modified files for the next commit.
+   - If you just want to stage a single file, and you're currently under the `docs` folder, use the following command (for example):
+     ```matlab
+     !git add GitHub_Synchronization_Workflow.md
+     ```
 
 3. **Commit the Changes**:
    - Commit the staged files with a descriptive message:
